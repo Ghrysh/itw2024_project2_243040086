@@ -84,6 +84,57 @@ footer .social a {
     transition: .5s;
 }
 
+.text-uppercase {
+    margin-left: 5%;
+}
+
+.text-uppercase2 {
+    margin-left: 0;
+    font-size: 25px;
+}
+
 footer .nav-link {
     margin-right: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .text1 {
+        font-size: 40px;
+    }
+
+    .social-media a {
+        display: flex;
+        font-size: 40px;
+        color: white;
+        margin-top: 15px;
+        padding: 10px;
+        transition: .5s;
+        margin-left: 39%;
+        justify-content: center;
+    }
+
+    .container p {
+        text-align: justify;
+    }
+
+    .text-uppercase {
+        margin-left: 42%;
+    }
+
+    .text-uppercase2 {
+        margin-left: 42%;
+    }
+
+    footer .social a {
+        font-size: 30px;
+        color: white;
+        margin-top: 10px;
+        margin-left: 30%;
+    }
+    
+    footer .nav-link {
+        margin-bottom: 5px;
+        margin-left: 40%;
+    }
 }

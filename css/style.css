@@ -9,10 +9,6 @@ body {
     font-family: "EB Garamond";
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 .warna {
     background-color: rgb(116, 0, 0);
 }
@@ -39,7 +35,7 @@ body {
 }
 
 .card {
-    box-shadow:  0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e90000;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e90000;
 }
 
 .card-body a {
@@ -52,6 +48,15 @@ body {
     box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #e60000, 0 0 50px #e60000, 0 0 60px #e60000, 0 0 70px #e60000;
 }
 
+.text-uppercase {
+    margin-left: 5%;
+}
+
+.text-uppercase2 {
+    margin-left: 0;
+    font-size: 25px;
+}
+
 footer {
     margin-top: 10%;
 }
@@ -60,10 +65,52 @@ footer .social a {
     font-size: 30px;
     color: white;
     margin-top: 10px;
-    margin-right: 90%;
     transition: .5s;
 }
 
 footer .nav-link {
-    margin-right: 100%;
+    margin-bottom: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .text1 {
+        font-size: 40px;
+    }
+
+    .social-media a {
+        display: flex;
+        font-size: 40px;
+        color: white;
+        margin-top: 15px;
+        padding: 10px;
+        transition: .5s;
+        margin-left: 35%;
+        justify-content: center;
+    }
+
+    .card {
+        margin-left: 5%;
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e90000;
+    }
+
+    .text-uppercase {
+        margin-left: 42%;
+    }
+
+    footer .social a {
+        font-size: 30px;
+        color: white;
+        margin-top: 10px;
+        margin-left: 30%;
+    }
+
+    .text-uppercase2 {
+        margin-left: 42%;
+    }
+
+    footer .nav-link {
+        margin-bottom: 5px;
+        margin-left: 40%;
+    }
 }
