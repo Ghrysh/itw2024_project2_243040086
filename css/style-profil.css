@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    font-family: "EB Garamond";
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.warna {
+    background-color: rgb(116, 0, 0);
+}
+
+.warna2 {
+    background-color: black;
+}
+
+.social-media a {
+    font-size: 40px;
+    color: white;
+    margin-top: 15px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.social-media a:hover {
+    transform: scale(1.2);
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(143, 0, 0);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #e60000, 0 0 50px #e60000, 0 0 60px #e60000, 0 0 70px #e60000;
+}
+
+/* End header */
+
+/* Profil */
+.custom-container {
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+}
+.profile-img {
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* start footer */
+
+footer {
+    margin-top: 10%;
+}
+
+footer .social a {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 90%;
+    transition: .5s;
+}
+
+footer .nav-link {
+    margin-right: 100%;
+}
